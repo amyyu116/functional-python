@@ -22,7 +22,7 @@ def evens(n):
     []
     '''
     if n < 0:
-        return []
+        return [0]
     else:
         return [i*2 for i in range(int((n/2))+1)]
 
